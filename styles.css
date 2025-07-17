@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: #ffffff;
+}
+header {
+  padding: 0;
+  margin: 0;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  background: #eee;
+}
+
+.slider-card {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.latest-apps {
+  padding: 20px;
+  text-align: center;
+}
+
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.app-card {
+  background: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.app-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.app-card h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.app-card p {
+  color: #888;
+  margin: 5px 0;
+}
+
+.stars {
+  color: orange;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background: #ddd;
+}
+.banner {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner-button {
+  background: #ffb347;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.banner-button:hover {
+  background: #ffa500;
+}
